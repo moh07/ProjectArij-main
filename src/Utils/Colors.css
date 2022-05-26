@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #A4C755;
+    --primary-color-darker: #97b84c;
+    --secondary-color : #FAD553;
+    --font-primary-color: #828182;
+    --font-secondary-color : #707070;
+    --font-primary-variation-light : #C3C1C5;
+    --font-primary-variation-darker:#3E3E3E;
+    --font-secondary-variation-light : #B2B2B2;
+    --font-secondary-variation-darker:#474545;
+    --white-background-variation : #FCFBFD;
+    --input-background : #EDEAF1;
+    --stockAvailable : #1CB830;
+}

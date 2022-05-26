@@ -1,0 +1,151 @@
+.title-mycart {
+  background-color: #fad553;
+  height: 7.5vh;
+}
+.mycart {
+  color: #fff;
+  padding: 1rem;
+}
+
+.itemimg {
+  width: 100%;
+  border: 2rem;
+  margin: 0.5rem 0rem 0.5rem 2rem;
+}
+
+.itemname {
+  margin-left: 1.5rem;
+}
+.mycart-prix {
+  margin-top: 9rem;
+  color: var(--primary-color);
+}
+
+.numberofproduct {
+  margin-top: 1rem;
+}
+
+.mincebtn {
+  background-color: var(--primary-color);
+  width: 2.1rem;
+  height: 2.1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.maxcebtn {
+  background-color: var(--primary-color);
+  width: 2.1rem;
+  height: 2.1rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  align-items: right;
+}
+.numberitms {
+  width: 50%;
+}
+
+/* .mycartul .mycartli {
+
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+} */
+
+/* .mycartul .mycartli:hover {
+  background-color: #eee;
+} */
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: -1.6vh;
+  right: 3.2vh;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+
+.cart-sidebar-footer {
+  background: #ececec none repeat scroll 0 0;
+  padding: 14px 20px;
+  position: absolute;
+  bottom: 0;
+  width: 60vh;
+}
+.cart-store-details p {
+  margin: 0 0 3px;
+}
+.cart-store-details h6 {
+  margin: 10px 0 19px;
+}
+.cart-sidebar-footer .btn {
+  padding: 15px 17px;
+}
+
+.cart-store-details p {
+  margin: 0 0 3px;
+}
+.cart-store-details h6 {
+  margin: 10px 0 19px;
+}
+.cart-sidebar-footer .btn {
+  padding: 15px 17px;
+}
+
+.cart-sidebar-header .float-right {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 24px;
+  color: #000;
+  height: 26px;
+  line-height: 25px;
+  text-align: center;
+  width: 26px;
+}
+
+.mycartcheckout {
+  background-color: #97b84c;
+  color: #fff;
+  font-size: 18px;
+}
+
+.mycarticon {
+  color: #fff;
+  width: 2.5rem;
+  margin-bottom: 0.65rem;
+  margin-right: 0.4rem;
+}
+.mycartcheckout {
+  color: white;
+}
+
+/* .btn:hover {
+  color: red;
+} */
+
+.inputqt {
+  width: 2rem;
+  border-style: none;
+  pointer-events: none;
+  text-align: center;
+  font-size: 25;
+}
+
+.NumbItem {
+  display: flex;
+  flex: nowrap;
+}
+
+.iteminfo {
+  transition: transform 0.1s; /* Animation */
+}
+
+.iteminfo:hover {
+  transform: scale(
+    1.02
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

@@ -1,0 +1,184 @@
+.modal-content {
+  border-radius: 1.5rem;
+}
+
+.logInModal-title,
+.logInModal-form-label,
+.logInModal-form-link:hover,
+.logInModal-form-link,
+.logInModal-form-text,
+.registerModal-textm,
+.registerModal-title,
+.registerModal-splitter,
+.registerModal-label {
+  color: var(--font-secondary-color);
+}
+
+.logInModal-title,
+.registerModal-title {
+  text-align: center;
+}
+
+.logInModal-form {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+}
+
+.logInModal-form-input,
+.registerModal-input,
+.registerModal-select {
+  height: 3.8rem;
+  background-color: var(--input-background);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.registerModal-select {
+  margin-bottom: 1.5rem;
+}
+
+.logInModal-form-input:focus {
+  background-color: var(--input-background);
+  box-shadow: 0px 1px 1px var(--font-primary-variation-light) inset,
+    0px 0px 8px var(--font-primary-variation-light);
+}
+
+.logInModal-form-link {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.logInModal-form-submit,
+.registerModal-submit {
+  width: 6rem;
+  height: 2.75rem;
+  margin-top: 1.25rem;
+  color: white;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+}
+
+.logInModal-form-submit,
+.logInModal-form-submit:hover {
+  color: white;
+}
+
+.logInModal-form-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.logInModal-form-text-link,
+.logInModal-form-text-link:link,
+.logInModal-form-text-link:visited,
+.registerModal-text-link,
+.registerModal-text-link:link,
+.registerModal-text-link:visited {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.registerModal-text {
+  margin-top: 1.25rem;
+  margin-right: 1.75rem;
+  text-align: right;
+}
+
+.registerModal {
+  width: 80%;
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.registerModal-googleButton {
+  width: 80%;
+  height: 4rem;
+  padding-top: 0.5rem;
+  background-color: var(--primary-color);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.registerModal-googleButton,
+.registerModal-googleButton:hover {
+  color: white;
+}
+
+.registerModal-googleButton-img {
+  width: 2.25rem;
+  height: auto;
+  margin-left: 1rem;
+  margin-top: -0.1rem;
+  float: left;
+}
+
+.registerModal-facebookButton {
+  width: 17.5%;
+  height: 4rem;
+  margin-left: 2.5%;
+  background-color: var(--input-background);
+}
+
+.registerModal-splitter {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.registerModal-splitter::before,
+.registerModal-splitter::after {
+  position: absolute;
+  width: 42.5%;
+  height: 0.1rem;
+  background-color: var(--font-primary-variation-light);
+  top: 12.5%;
+  content: "";
+}
+
+.registerModal-splitter::before {
+  left: 3%;
+}
+
+.registerModal-splitter::after {
+  right: 3%;
+}
+
+.registerModal-submit {
+  width: 8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .registerModal-splitter::before,
+  .registerModal-splitter::after {
+    top: 16.5%;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-content {
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .registerModal {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+.kkk {
+  width: 90rem;
+}
+.qqq {
+  align-items: center;
+}
+
+.margLef {
+  margin-left: -1.7rem;
+}

@@ -1,0 +1,28 @@
+.header-title{
+    display: inline;
+    margin-left: 7.5%;
+    color: var(--font-secondary-color);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header{
+    margin-bottom: 2.5rem;
+}
+
+.header-button{
+    width: 6.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: .5rem;
+}
+
+.header-button:hover{
+    color: white;
+
+}

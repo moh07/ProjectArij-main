@@ -1,0 +1,177 @@
+/*Common CSS between all media-queries and Extra large devices-only css more than 1200px*/
+
+.searchbar-input,
+.searchbar-dropdown-toggle,
+.searchbar-dropdown-list,
+.searchbar-btn,
+.dropdown-item {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-family: var(--font-primary-color);
+}
+
+.searchbar {
+  max-width: 95%;
+  min-width: 27.5rem;
+  margin-left: 2.5%;
+  height: 5rem;
+  margin-bottom: 10%;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+.searchbar-input {
+  display: inline;
+  width: 55%;
+  height: 100%;
+  padding-left: 5%;
+  padding-top: 1rem;
+  margin-top: 0.25rem;
+  color: var(--font-primary-color);
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.75rem;
+  outline: none;
+}
+
+/*The whole dropdown menu*/
+
+.searchbar-dropdown {
+  display: inline;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+/*Dropdown buttons*/
+
+.searchbar-dropdown-toggle,
+.searchbar-dropdown-toggle-mobile {
+  height: 3rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: var(--font-primary-color);
+  font-size: 1.6rem;
+  border: none;
+  text-align: Left;
+}
+
+.searchbar-dropdown-toggle {
+  width: 15%;
+  max-width: 12.5rem;
+  min-width: 10.5rem;
+}
+
+.searchbar-dropdown-toggle-mobile,
+.searchbar-btn-mobile {
+  display: none;
+}
+
+.searchbar-dropdown-toggle:hover {
+  background-color: white;
+  color: #828182;
+}
+
+/*For the vertical line between the dropdown and the input*/
+
+.searchbar-dropdown-toggle::before {
+  position: absolute;
+  content: "";
+  height: 2rem;
+  width: 0.15rem;
+  top: -20%;
+  left: 0;
+  background-color: var(--font-primary-color);
+}
+
+/*Dropdown list (items)*/
+
+.searchbar-dropdown-list {
+  width: 19rem;
+}
+
+.searchbar-dropdown-list-item {
+  font-size: 1.4rem;
+}
+
+.searchbar-btn,
+.searchbar-btn-mobile {
+  width: 15%;
+  max-width: 13.5rem;
+  min-width: 2.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  margin-top: 0.75rem;
+  background-color: var(--primary-color);
+  font-size: 1.6rem;
+  color: white;
+  border-radius: 0.75rem;
+  border: none;
+  float: right;
+}
+
+.searchbar-btn-img,
+.searchbar-btn-img-mobile {
+  width: 1.75rem;
+  height: auto;
+  margin-left: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.searchbar-btn-mobile {
+}
+
+.searchbar-btn-mobile-img {
+  width: 1.85rem;
+  margin: auto;
+  vertical-align: middle;
+  margin-bottom: 0.5rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .searchbar-dropdown-toggle,
+  .searchbar-btn {
+    display: none;
+  }
+
+  .searchbar-dropdown-toggle-mobile,
+  .searchbar-btn-mobile {
+    display: inline;
+  }
+
+  .searchbar-dropdown-list {
+    margin-left: -8rem;
+  }
+}
+
+.result {
+  background-color: rgb(255, 255, 255);
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  max-height: 300px;
+  overflow-x: hidden;
+}
+
+.imgresult {
+  width: 5rem;
+  margin: 0.7rem;
+
+  height: 5rem;
+}
+.cat-nameresult {
+  margin-top: 2.7rem;
+  float: left;
+}
+
+.inforesult {
+  border-top: 1px solid #130e0e;
+}
+.search-item {
+  font-size: 1.4rem;
+}
+
+.search-item:hover {
+  box-shadow: 0px 0px 4px 2px rgba(142, 142, 142, 0.59);
+  background-color: #fcfbfd;
+  cursor: pointer;
+}

@@ -1,0 +1,110 @@
+#ProductDescriptionContainer {
+    position: relative;
+    min-height: 52.5rem;
+    margin-top: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--white-background-variation);
+  }
+  
+  .ProductDescriptionContainer-tabs {
+    padding-left: 20%;
+  }
+  
+  .ProductDescriptionContainer-tabs-btn,
+  .ProductDescriptionContainer-tabs-btn:hover {
+    color: var(--font-secondary-variation-light);
+  }
+  
+  .ProductDescriptionContainer-tabs-btn {
+    min-width: 9rem;
+    margin-left: 2.5rem;
+    font-weight: 500;
+  }
+  
+  .ProductDescriptionContainer-btn-Activebtn,
+  .ProductDescriptionContainer-btn-Activebtn:hover {
+    color: white;
+  }
+  
+  .ProductDescriptionContainer-btn-Activebtn {
+    background-color: var(--secondary-color);
+  }
+  
+  .ProductDescriptionContainer-panel {
+    margin-top: 4rem;
+  }
+  
+  .ProductDescriptionContainer-panel-img {
+    width: 100%;
+    max-width: 27.5rem;
+    height: auto;
+    margin-left: 0.75rem;
+  }
+  
+  .ProductDescriptionContainer-panel::before {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--secondary-color);
+    bottom: 5%;
+    left: 15%;
+    border-radius: 50%;
+    content: "";
+  }
+  
+  .ProductDescriptionContainer-panel-title,
+  .ProductDescriptionContainer-panel-text {
+    color: var(--font-secondary-color);
+  }
+  
+  .ProductDescriptionContainer-panel-title {
+    max-width: 30rem;
+  }
+  
+  .ProductDescriptionContainer-panel-text {
+    max-width: 37.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
+  
+  @media (max-width: 1199.98px) {
+    .ProductDescriptionContainer-tabs-btn {
+      text-align: center;
+    }
+  
+    .ProductDescriptionContainer-tabs {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .ProductDescriptionContainer-panel::before {
+      left: 5%;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .ProductDescriptionContainer-panel-img {
+      display: block;
+    }
+  
+    .ProductDescriptionContainer-panel-title,
+    .ProductDescriptionContainer-panel-text {
+      text-align: center;
+      max-width: 100%;
+    }
+  
+    .ProductDescriptionContainer-panel-title {
+      margin-top: 5rem;
+    }
+  
+    .ProductDescriptionContainer-panel::before {
+      bottom: 0;
+      left: -10%;
+    }
+  }
+  
+  .hidden-desc-panel {
+    display: none;
+  }

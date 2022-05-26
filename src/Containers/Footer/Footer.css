@@ -1,0 +1,126 @@
+#footer {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: var(--white-background-variation);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#footer::before {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background-color: var(--primary-color);
+  content: "";
+  border-radius: 50%;
+  right: -5rem;
+  bottom: -4rem;
+}
+
+.footer-img {
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-textcontainer-title {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-textcontainer-text {
+  width: 60%;
+  color: var(--font-primary-variation-light);
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.footer-textcontainer-input {
+  display: inline;
+  min-width: 12.5rem;
+  width: 96% !important;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.3rem 0.5rem lightgrey;
+}
+
+.footer-textcontainer-input:focus {
+  box-shadow: 0.1rem 0.3rem 0.5rem lightgrey;
+}
+
+.footer-textcontainer-input::placeholder {
+  color: var(--font-primary-variation-light);
+}
+
+.footer-textcontainer-button {
+  width: 8rem;
+  height: 3.9rem;
+  margin-left: 1rem; 
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.3rem 0.5rem lightgrey;
+  text-transform: capitalize;
+  float: right;
+}
+
+.footer-textcontainer-button:hover {
+  color: white;
+}
+
+.footer-linkContainer-list {
+  list-style-type: none;
+  font-size: 1.4rem;
+}
+
+.footer-linkContainer-list li {
+  margin-bottom: 1rem;
+}
+
+.footer-linkContainer-list-item {
+  color: var(--font-primary-variation-light);
+  text-transform: capitalize;
+}
+
+.footer-linkContainer-list-item:link {
+  text-decoration: none;
+}
+
+.footer-linkContainer-list-item:visited {
+  color: var(--font-primary-variation-light);
+}
+
+.footer-copyright {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--font-primary-variation-light);
+}
+
+@media (max-width: 767.98px) {
+  #footer::before {
+    display: none;
+  }
+
+  #footer,
+  .footer-textcontainer-text {
+    text-align: center;
+  }
+
+  .footer-img {
+    display: inline;
+    margin-left: 3rem;
+  }
+
+  .footer-textcontainer-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-col {
+    margin-bottom: 2.5rem;
+  }
+}

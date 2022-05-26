@@ -1,0 +1,69 @@
+/*for the whole sidebar (Drawer)*/
+.navbar-mobile-list{
+  width: 25rem;
+}
+
+/*mobile navbar top element (containing the brand)*/
+#first-item{
+  height: 10vh;
+  margin-top: -.8rem;
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: 650;
+  font-style: italic;
+}
+
+.navbar-mobile-closeButton{
+  width: 3.75rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin-left: 12.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  border: none;
+}
+
+.navbar-mobile-listItem{
+  height :4.5rem;
+  margin-top: 1rem;
+  margin-right: 0;
+  font-size: 1.6rem;
+}
+
+.navbar-mobile-dropdownDivider{
+  background-color: #6c757d;
+}
+
+.navbar-mobile-listItem-link:link{
+  color: var(--font-primary-color);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.navbar-mobile-listItem-link:visited {
+  color: var(--font-primary-color);
+}
+
+.navbar-mobile-listItem-link:hover {
+  color: var(--font-primary-color);
+}
+
+.navbar-mobile-listItem-link-img{
+  width: 2rem;
+  height: auto;
+  margin-bottom: .5rem;
+  margin-right: 1rem;
+}
+
+.navbar-mobile-listItem-text{
+  padding-left: 1rem;
+}
+
+/*for Big devices (desktop and bigger screen)*/
+@media (min-width: 992px) {
+    .navbar-mobile{
+      display: none;
+    }
+   }

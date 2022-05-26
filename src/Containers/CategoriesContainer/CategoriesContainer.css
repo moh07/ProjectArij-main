@@ -1,0 +1,45 @@
+.rs {
+  margin-top: 5rem;
+  padding: 1.5rem 1rem 0rem;
+  width: 60%;
+  justify-content: center;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.resarch-btn {
+  background-color: var(--primary-color);
+  width: 6rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  box-shadow: 0rem 0.3rem 0.3rem lightgrey;
+}
+.resarch-input {
+  height: 4.5rem;
+  border-radius: 0.6rem;
+  box-shadow: 0rem 0.3rem 0.3rem lightgrey;
+}
+.search-icon {
+  width: 2rem;
+  margin: auto;
+}
+.resarch-input {
+  font-size: 13px;
+}
+
+/* ////////////////// */
+
+.cattt {
+  margin-right: 60px;
+}
+.resarch-bar {
+  width: 800vh;
+}
+
+

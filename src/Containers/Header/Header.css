@@ -1,0 +1,13 @@
+#header{
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    background: url('../../Assets/Images/headerPic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -2.5rem;
+}
+
+.header-row{
+    height: 100%;
+}

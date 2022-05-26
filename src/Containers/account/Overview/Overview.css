@@ -1,0 +1,56 @@
+.myProjects {
+  margin-top: 1.5rem;
+}
+
+.cardprpject {
+  /* background-image: linear-gradient(0deg, #FAD553, #A4C755); */
+  height: 25rem;
+  width: 22rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to bottom right, #ffe47a, #a4c755, #dbd4b4);
+  position: relative;
+  padding: 5rem 0rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.Addnewproject {
+  /* background-image: linear-gradient(0deg, #FAD553, #A4C755); */
+  height: 25rem;
+  width: 22rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to bottom right, #f7f8f8, #dbd4b4);
+  position: relative;
+  padding: 50px 0;
+  float: left;
+  margin-right: 1rem;
+  border-color: #a4c755;
+  border-style: dashed;
+}
+
+.Addbtn {
+  font-size: 13rem;
+  color: #a4c755;
+}
+.Addbtn:hover {
+  color: darkslategrey;
+  cursor: pointer;
+}
+
+/* --- Product Grid Page --- */
+
+.MyInfo {
+  background-color: #e2e5f8;
+  border-radius: 0;
+}
+.borderinfo {
+  border-style: dashed;
+  outline: 5px solid #e2e5f8;
+  border-radius: 1rem;
+  border: 1px;
+}
+.infox p {
+  border-bottom: 1px solid #e5f8;
+}
+
+

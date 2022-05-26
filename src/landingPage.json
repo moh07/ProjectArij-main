@@ -1,0 +1,90 @@
+{
+    "home": {
+      "english": "Home",
+      "arabic": "الرئيسية"
+    },
+    "product": {
+      "english": "Product",
+      "arabic": "المنتجات"
+    },
+    "categories": {
+      "english": "Categories",
+      "arabic": "التصنيفات"
+    },
+    "TechincalSupport": {
+      "english": "Techincal support",
+      "arabic": "دعم فني"
+    },
+    "ContactUs": {
+      "english": "Contact Us",
+      "arabic": "اتصل بنا"
+    },
+    "SignIn": {
+      "english": "Log In",
+      "arabic": "دخول"
+    },
+    "SignUp": {
+      "english": "Register",
+      "arabic": "تسجيل"
+    },
+    "SearchHere": {
+      "english": "Search here...",
+      "arabic": "ابجث هنا"
+    },
+    "find": {
+      "english": "find",
+      "arabic": "ابجث"
+    },
+    "services": {
+      "english": "Service",
+      "arabic": "خدمات"
+    },
+    "LatestAnnouncement1": {
+      "english": "Latest",
+      "arabic": "أحدث"
+    },
+    "LatestAnnouncement2": {
+      "english": "Products",
+      "arabic": "المنتجات"
+    },
+    "LatestAnnouncementText1": {
+      "english": "Buy the best products",
+      "arabic": "اشتري أفضل المنتجات"
+    },
+    "LatestAnnouncementText2": {
+      "english": "from varied suppliers",
+      "arabic": "من موردين متنوعين"
+    },
+    "showAll": {
+      "english": "Show All",
+      "arabic": "عرض الكل"
+    },
+    "MachineSetup": {
+      "english": "Machine Setup",
+      "arabic": "اعداد الآلة"
+    },
+    "InformationRequest": {
+      "english": "Information Request",
+      "arabic": "طلب معلومات"
+    },
+    "MachineMaintenance": {
+      "english": "Machine Maintenance",
+      "arabic": "صيانة الأجهزة"
+    },
+    "Description": {
+      "english": "Maison de Fournitures Industrielles or Mafi for short is an agribusiness company that sells all kinds of agricultural products.",
+      "arabic": "باختصار هي شركة تجارية زراعية تبيع جميع أنواع المنتجات الزراعية."
+    },
+    "more": {
+      "english": "more",
+      "arabic": "المزيد"
+    },
+    "subscription": {
+      "english": "type your email here...",
+      "arabic": "اكتب بريدك الإلكتروني هنا ..."
+    },
+    "subscribe": {
+      "english": "Subscribe",
+      "arabic": "اشترك"
+    }
+  }

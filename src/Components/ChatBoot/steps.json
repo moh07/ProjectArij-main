@@ -1,0 +1,34 @@
+[
+    {
+      "id": "1",
+      "message": "Hi how may I help you?",
+      "trigger": "2"
+    },
+    {
+      "id": "2",
+      "options": [
+        {
+          "value": 1,
+          "label": "What is Mafi",
+          "trigger": "3",
+          "response": "Mafi is a company that sells agricultural products."
+        },
+        {
+          "value": 2,
+          "label": "How can I buy a product",
+          "trigger": "4",
+          "response": "Click on register button then fill the form"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "message": "Mafi is a company that sells agricultural products.",
+      "trigger": "2"
+    },
+    {
+      "id": "4",
+      "message": "Click on register button then fill the form",
+      "trigger": "2"
+    }
+  ]

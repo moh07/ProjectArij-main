@@ -1,0 +1,18 @@
+.demande-devis {
+  background-color: white;
+}
+.bouttonAdd {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(0, 255, 123, 0.612);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  align-content: flex-end;
+}

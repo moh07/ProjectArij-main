@@ -1,0 +1,45 @@
+.board {
+  width: 100%;
+  height: 27.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.6rem 0.5rem lightgrey;
+  min-width: 21rem;
+}
+
+.BoardLink:hover {
+  text-decoration: none;
+}
+
+.board-text {
+  justify-content: center;
+  padding-top: 3.5rem;
+  color: var(--font-primary-variation-light);
+  font-size: 1.2rem;
+}
+
+.board-text-title {
+  color: var(--font-primary-variation-darker);
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.board-img {
+  width: 100%;
+  max-width: 13rem;
+  height: auto;
+  margin-bottom: 3.5rem;
+  align-self: center;
+}
+
+@media (min-width: 992px) {
+  .board {
+    max-width: 21rem;
+  }
+}
